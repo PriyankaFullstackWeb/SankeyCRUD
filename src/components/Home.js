@@ -1,6 +1,6 @@
 import React from 'react';
 // import apicalls from "./fetch/service/apicalls";
-import {useState,useEffect} from 'react'
+import {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import { FaRegMehBlank ,FaEdit} from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
