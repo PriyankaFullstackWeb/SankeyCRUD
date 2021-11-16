@@ -24,11 +24,7 @@ function EditBook() {
   useEffect(() => {
     loadBook();
   }, []);
-  
-  
-  // useEffect(() => {
-  //   loadBooks();
-  // }, []);
+ 
 
   const loadBooks = () => {
     const { name, author,description,price,rating} = updatebook
@@ -45,20 +41,7 @@ function EditBook() {
   const handleInputChange = (e) => {
     setUpdateBook({ ...updatebook, [e.target.name]: e.target.value });
   };
-  // const updateBook = () => {
-  //   apicalls.put(`/update/${id}`, updatebook);
-  //   history.push("/");
-  // };
-  
-  
-  // const loadBook = async () => {
-  //   let res = await apicalls.get(`/edit/${id}`);
-  //   console.log(res);
-  //   setUpdateBook(res.data);
-  // };
-  // useEffect(() => {
-  //   loadBook();
-  // }, []);
+
 
   
 
