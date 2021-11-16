@@ -134,7 +134,7 @@ function EditBook() {
             name="rating"
             value={updatebook.rating}
             id="exampleFormControlInput1"
-            placeholder="Enter rating(out of 5)"
+            placeholder="Enter rating (out of 5)"
            onChange={handleInputChange}
           />
         </div>
